@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/simpleTableLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="60dp">
+
+    <!-- first row of the table layout-->
+    <TableRow
+
+        android:id="@+id/Row1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <!-- first element of the row-->
+        <TextView
+
+            android:id="@+id/query_tv"
+            android:layout_width="347dp"
+            android:layout_height="100dp"
+            android:padding="20dip"
+            android:text=""
+            android:textAlignment="textEnd"
+            android:textAllCaps="true"
+            android:textColor="#000"
+            android:textSize="48sp" />
+
+
+    </TableRow>
+
+    <TableRow
+
+        android:id="@+id/Row2"
+        android:layout_width="367dp"
+        android:layout_height="wrap_content">
+
+        <!-- first element of the row-->
+        <TextView
+
+            android:id="@+id/result_tv"
+            android:layout_width="370dp"
+            android:layout_height="80dp"
+            android:padding="20dip"
+            android:text=""
+            android:textAlignment="textEnd"
+            android:textColor="#FF898282"
+            android:textSize="24sp" />
+
+
+    </TableRow>
+
+
+    <TableRow
+
+        android:id="@+id/Row3"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <!-- first element of the row-->
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="0dp"
+            android:layout_height="87dp"
+            android:layout_weight="1.1"
+            android:text="C"
+            android:textColor="#3F51B5"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="0dp"
+            android:layout_height="87dp"
+            android:layout_weight="1.1"
+            android:text="/"
+            android:textColor="#3F51B5"
+            android:textSize="24sp"/>
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="0dp"
+            android:layout_height="87dp"
+            android:layout_weight="1.1"
+            android:text="*"
+            android:textColor="#3F51B5"
+            android:textSize="24sp"/>
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="0dp"
+            android:layout_height="87dp"
+            android:layout_weight="1.1"
+            android:text="⌫"
+            android:textColor="#3F51B5"
+            android:textSize="24sp"/>
+
+    </TableRow>
+
+    <TableRow
+
+        android:id="@+id/Row4"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <!-- first element of the row-->
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="0dp"
+            android:layout_height="87dp"
+            android:layout_weight="1.1"
+            android:text="7"
+            android:textSize="24sp"/>
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="0dp"
+            android:layout_height="87dp"
+            android:text="8"
+            android:layout_weight="1.1"
+            android:textSize="24sp"/>
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="0dp"
+            android:layout_height="87dp"
+            android:text="9"
+            android:layout_weight="1.1"
+            android:textSize="24sp"/>
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="0dp"
+            android:layout_height="87dp"
+            android:layout_weight="1.1"
+            android:text="-"
+            android:textColor="#3F51B5"
+            android:textSize="24sp"/>
+
+    </TableRow>
+
+    <TableRow
+
+        android:id="@+id/Row5"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <!-- first element of the row-->
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="0dp"
+            android:layout_height="87dp"
+            android:layout_weight="1.1"
+            android:text="4"
+            android:textSize="24sp"/>
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="0dp"
+            android:layout_height="87dp"
+            android:text="5"
+            android:layout_weight="1.1"
+            android:textSize="24sp"/>
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="0dp"
+            android:layout_height="87dp"
+            android:text="6"
+            android:layout_weight="1.1"
+            android:textSize="24sp"/>
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="0dp"
+            android:layout_height="87dp"
+            android:layout_weight="1.1"
+            android:text="+"
+            android:textColor="#3F51B5"
+            android:textSize="24sp"/>
+
+    </TableRow>
+
+    <TableRow
+
+        android:id="@+id/Row6"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <!-- first element of the row-->
+        <Button
+            android:id="@+id/button13"
+            android:layout_width="0dp"
+            android:layout_height="87dp"
+            android:layout_weight="1.1"
+            android:text="1"
+            android:textSize="24sp"/>
+
+        <Button
+            android:id="@+id/button14"
+            android:layout_width="0dp"
+            android:layout_height="87dp"
+            android:text="2"
+            android:layout_weight="1.1"
+            android:textSize="24sp"/>
+
+        <Button
+            android:id="@+id/button15"
+            android:layout_width="0dp"
+            android:layout_height="87dp"
+            android:text="3"
+            android:layout_weight="1.1"
+            android:textSize="24sp"/>
+
+        <Button
+            android:id="@+id/button16"
+            android:layout_width="0dp"
+            android:layout_height="87dp"
+            android:layout_weight="1.1"
+            android:background="#3F51B5"
+            android:text="="
+            android:textColor="#FFFFFFFF"
+            android:textSize="24sp" />
+
+    </TableRow>
+
+    <TableRow
+
+        android:id="@+id/Row7"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <!-- first element of the row-->
+        <Button
+            android:id="@+id/button17"
+            android:layout_width="0dp"
+            android:layout_height="87dp"
+            android:layout_weight="1.1"
+            android:text="%"
+            android:textSize="24sp"/>
+
+        <Button
+            android:id="@+id/button18"
+            android:layout_width="0dp"
+            android:layout_height="87dp"
+            android:text="0"
+            android:layout_weight="1.1"
+            android:textSize="24sp"/>
+
+        <Button
+            android:id="@+id/button19"
+            android:layout_width="0dp"
+            android:layout_height="87dp"
+            android:text="."
+            android:layout_weight="1.1"
+            android:textSize="24sp"/>
+        <Button
+            android:id="@+id/button20"
+            android:layout_width="0dp"
+            android:layout_height="87dp"
+            android:text=""
+            android:layout_weight="1.1"
+            android:textSize="24sp"/>
+
+    </TableRow>
+
+
+</TableLayout>
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+    <!--<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--    xmlns:tools="http://schemas.android.com/tools"-->
+    <!--    android:layout_width="match_parent"-->
+    <!--    android:layout_height="match_parent"-->
+    <!--    tools:context=".MainActivity">-->
+
+    <!--&lt;!&ndash;    <TextView&ndash;&gt;-->
+    <!--&lt;!&ndash;        android:layout_width="wrap_content"&ndash;&gt;-->
+    <!--&lt;!&ndash;        android:layout_height="wrap_content"&ndash;&gt;-->
+    <!--&lt;!&ndash;        android:text="Calculator App"&ndash;&gt;-->
+    <!--&lt;!&ndash;        android:textSize="24sp"&ndash;&gt;-->
+    <!--&lt;!&ndash;        app:layout_constraintBottom_toBottomOf="parent"&ndash;&gt;-->
+    <!--&lt;!&ndash;        app:layout_constraintEnd_toEndOf="parent"&ndash;&gt;-->
+    <!--&lt;!&ndash;        app:layout_constraintHorizontal_bias="0.498"&ndash;&gt;-->
+    <!--&lt;!&ndash;        app:layout_constraintStart_toStartOf="parent"&ndash;&gt;-->
+    <!--&lt;!&ndash;        app:layout_constraintTop_toTopOf="parent"&ndash;&gt;-->
+    <!--&lt;!&ndash;        />&ndash;&gt;-->
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/queryTV"-->
+    <!--        android:layout_width="410dp"-->
+    <!--        android:layout_height="66dp"-->
+    <!--        android:ems="10"-->
+    <!--        android:inputType="textPersonName"-->
+    <!--        android:singleLine="false"-->
+    <!--        android:text="88+22"-->
+    <!--        android:textAlignment="textEnd"-->
+    <!--        tools:layout_editor_absoluteX="-1dp"-->
+    <!--        tools:layout_editor_absoluteY="118dp"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.498"-->
+    <!--        app:layout_constraintVertical_bias="0.195"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"/>-->
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/resultTV"-->
+    <!--        android:layout_width="410dp"-->
+    <!--        android:layout_height="66dp"-->
+    <!--        android:ems="10"-->
+    <!--        android:inputType="textPersonName"-->
+    <!--        android:singleLine="false"-->
+    <!--        android:text="110"-->
+    <!--        android:textAlignment="textEnd"-->
+    <!--        tools:layout_editor_absoluteX="2dp"-->
+    <!--        tools:layout_editor_absoluteY="167dp"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.498"-->
+    <!--        app:layout_constraintVertical_bias="0.255"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"/>-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/button1"-->
+    <!--        android:layout_width="103dp"-->
+    <!--        android:layout_height="91dp"-->
+    <!--        android:text="C"-->
+    <!--        tools:layout_editor_absoluteX="-2dp"-->
+    <!--        tools:layout_editor_absoluteY="250dp"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.00"-->
+    <!--        app:layout_constraintVertical_bias="0.390"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"/>-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/button2"-->
+    <!--        android:layout_width="105dp"-->
+    <!--        android:layout_height="91dp"-->
+    <!--        android:text="/"-->
+    <!--        tools:layout_editor_absoluteX="101dp"-->
+    <!--        tools:layout_editor_absoluteY="250dp"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.33"-->
+    <!--        app:layout_constraintVertical_bias="0.390"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"/>-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/button3"-->
+    <!--        android:layout_width="107dp"-->
+    <!--        android:layout_height="91dp"-->
+    <!--        android:text="x"-->
+    <!--        tools:layout_editor_absoluteX="204dp"-->
+    <!--        tools:layout_editor_absoluteY="250dp"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.67"-->
+    <!--        app:layout_constraintVertical_bias="0.390"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"/>-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/button4"-->
+    <!--        android:layout_width="103dp"-->
+    <!--        android:layout_height="91dp"-->
+    <!--        android:text="BS"-->
+    <!--        tools:layout_editor_absoluteX="312dp"-->
+    <!--        tools:layout_editor_absoluteY="250dp"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.999"-->
+    <!--        app:layout_constraintVertical_bias="0.390"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"/>-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/button5"-->
+    <!--        android:layout_width="103dp"-->
+    <!--        android:layout_height="91dp"-->
+    <!--        android:text="7"-->
+    <!--        tools:layout_editor_absoluteX="-2dp"-->
+    <!--        tools:layout_editor_absoluteY="331.5dp"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.00"-->
+    <!--        app:layout_constraintVertical_bias="0.518"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"/>-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/button6"-->
+    <!--        android:layout_width="105dp"-->
+    <!--        android:layout_height="91dp"-->
+    <!--        android:text="8"-->
+    <!--        tools:layout_editor_absoluteX="101dp"-->
+    <!--        tools:layout_editor_absoluteY="331.5dp"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.33"-->
+    <!--        app:layout_constraintVertical_bias="0.518"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"/>-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/button7"-->
+    <!--        android:layout_width="107dp"-->
+    <!--        android:layout_height="91dp"-->
+    <!--        android:text="9"-->
+    <!--        tools:layout_editor_absoluteX="204dp"-->
+    <!--        tools:layout_editor_absoluteY="331.5dp"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.67"-->
+    <!--        app:layout_constraintVertical_bias="0.518"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"/>-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/button8"-->
+    <!--        android:layout_width="103dp"-->
+    <!--        android:layout_height="91dp"-->
+    <!--        android:text="-"-->
+    <!--        tools:layout_editor_absoluteX="311dp"-->
+    <!--        tools:layout_editor_absoluteY="331.5dp"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.999"-->
+    <!--        app:layout_constraintVertical_bias="0.518"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"/>-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/button9"-->
+    <!--        android:layout_width="103dp"-->
+    <!--        android:layout_height="91dp"-->
+    <!--        android:text="4"-->
+    <!--        tools:layout_editor_absoluteX="-2dp"-->
+    <!--        tools:layout_editor_absoluteY="415dp"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.00"-->
+    <!--        app:layout_constraintVertical_bias="0.646"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"/>-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/button10"-->
+    <!--        android:layout_width="105dp"-->
+    <!--        android:layout_height="91dp"-->
+    <!--        android:text="5"-->
+    <!--        tools:layout_editor_absoluteX="101dp"-->
+    <!--        tools:layout_editor_absoluteY="415dp"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.33"-->
+    <!--        app:layout_constraintVertical_bias="0.646"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"/>-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/button11"-->
+    <!--        android:layout_width="107dp"-->
+    <!--        android:layout_height="91dp"-->
+    <!--        android:text="6"-->
+    <!--        tools:layout_editor_absoluteX="204dp"-->
+    <!--        tools:layout_editor_absoluteY="415dp"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.67"-->
+    <!--        app:layout_constraintVertical_bias="0.646"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"/>-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/button12"-->
+    <!--        android:layout_width="103dp"-->
+    <!--        android:layout_height="91dp"-->
+    <!--        android:text="+"-->
+    <!--        tools:layout_editor_absoluteX="312dp"-->
+    <!--        tools:layout_editor_absoluteY="415dp"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.999"-->
+    <!--        app:layout_constraintVertical_bias="0.646"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"/>-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/button13"-->
+    <!--        android:layout_width="103dp"-->
+    <!--        android:layout_height="91dp"-->
+    <!--        android:text="1"-->
+    <!--        tools:layout_editor_absoluteX="-2dp"-->
+    <!--        tools:layout_editor_absoluteY="498dp"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.00"-->
+    <!--        app:layout_constraintVertical_bias="0.775"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"/>-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/button14"-->
+    <!--        android:layout_width="105dp"-->
+    <!--        android:layout_height="91dp"-->
+    <!--        android:text="2"-->
+    <!--        tools:layout_editor_absoluteX="101dp"-->
+    <!--        tools:layout_editor_absoluteY="498dp"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.33"-->
+    <!--        app:layout_constraintVertical_bias="0.775"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"/>-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/button15"-->
+    <!--        android:layout_width="107dp"-->
+    <!--        android:layout_height="91dp"-->
+    <!--        android:text="3"-->
+    <!--        tools:layout_editor_absoluteX="204dp"-->
+    <!--        tools:layout_editor_absoluteY="498dp"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.67"-->
+    <!--        app:layout_constraintVertical_bias="0.775"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"/>-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/button17"-->
+    <!--        android:layout_width="103dp"-->
+    <!--        android:layout_height="91dp"-->
+    <!--        android:text="%"-->
+    <!--        tools:layout_editor_absoluteX="-2dp"-->
+    <!--        tools:layout_editor_absoluteY="581dp"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.00"-->
+    <!--        app:layout_constraintVertical_bias="0.904"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"/>-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/button18"-->
+    <!--        android:layout_width="105dp"-->
+    <!--        android:layout_height="91dp"-->
+    <!--        android:text="0"-->
+    <!--        tools:layout_editor_absoluteX="99dp"-->
+    <!--        tools:layout_editor_absoluteY="581dp"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.33"-->
+    <!--        app:layout_constraintVertical_bias="0.904"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"/>-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/button19"-->
+    <!--        android:layout_width="107dp"-->
+    <!--        android:layout_height="91dp"-->
+    <!--        android:text="."-->
+    <!--        tools:layout_editor_absoluteX="206dp"-->
+    <!--        tools:layout_editor_absoluteY="581dp"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.67"-->
+    <!--        app:layout_constraintVertical_bias="0.904"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"/>-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/button16"-->
+    <!--        android:layout_width="103dp"-->
+    <!--        android:layout_height="175dp"-->
+    <!--        android:text="="-->
+    <!--        tools:layout_editor_absoluteX="312dp"-->
+    <!--        tools:layout_editor_absoluteY="498dp"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.999"-->
+    <!--        app:layout_constraintVertical_bias="0.891"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"/>-->
+
+
+    <!--</androidx.constraintlayout.widget.ConstraintLayout>-->
